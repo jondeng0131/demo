@@ -1,4 +1,4 @@
-import { useState, useRef, useCallback, useEffect } from "react";
+import { useState, useRef } from "react";
 
 // ─── Claude API ───────────────────────────────────────────────────────────────
 async function callClaude(messages, system = "", maxTokens = 1500) {
